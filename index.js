@@ -72,7 +72,7 @@ app.post("/login",(req,res)=>{
       res.send({message : "Login is successfully",alert:true,data:dataSent});
     }
     else{
-      res.send({message: "Something went wrong,Check your email and password !", alert: false})
+      res.send({message: "Something went wrong,Check your email and password ! ", alert: false})
     }
   })
 })
